@@ -99,17 +99,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * | Esc  | PREV | PLAY | NEXT | VolUP|      |   [  |   ]  |   1  |   2  |   3  |Nlock |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * | Shift|      |      |      | VolDN|      |   \  |   ;  |   =  |   0  |   .  |Enter |
+ * | Shift|      |      |      | VolDN|      |   \  |   ;  |      |   0  |   .  |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      | Ctrl | Alt  | GUI  |      |Space |Space |      |   +  |   -  |   *  |   /  |
+ * |      | Ctrl | Alt  | GUI  |      |Space |Space |      |   =  |   -  |   *  |   /  |
  * `-----------------------------------------------------------------------------------'
  */
 [_LOWER] = LAYOUT( \
   KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_GRAVE, KC_QUOTE, KC_KP_7, KC_KP_8, KC_KP_9, KC_BSPACE, \
   KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_COMMA, KC_DOT, KC_KP_4, KC_KP_5, KC_KP_6, KC_DELETE, \
   KC_ESCAPE, KC_MPRV, KC_MPLY, KC_MNXT, KC_VOLU,  _______, KC_LBRACKET, KC_RBRACKET, KC_KP_1, KC_KP_2, KC_KP_3, KC_NUMLOCK, \
-  KC_LSHIFT, _______, _______, _______, KC_VOLD,  _______, KC_BSLASH, KC_SCOLON, KC_EQUAL, KC_KP_0, KC_KP_DOT, KC_ENTER, \
-  _______, KC_LCTRL, KC_LALT, KC_LGUI, _______, KC_SPACE, KC_SPACE, _______, KC_KP_PLUS, KC_KP_MINUS, KC_KP_ASTERISK, KC_KP_SLASH \
+  KC_LSHIFT, _______, _______, _______, KC_VOLD,  _______, KC_BSLASH, KC_SCOLON, _______, KC_KP_0, KC_KP_DOT, KC_ENTER, \
+  _______, KC_LCTRL, KC_LALT, KC_LGUI, _______, KC_SPACE, KC_SPACE, _______, KC_EQUAL, KC_MINUS, KC_KP_ASTERISK, KC_KP_SLASH \
 ),
 
 
